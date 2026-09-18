@@ -1,5 +1,7 @@
 # Portfolio - Horacio Laphitz
 
+## Descripción
+
 Professional portfolio built with Astro, React, and Tailwind CSS. Deployed on GitHub Pages with automated CI/CD.
 
 ## 🚀 Tech Stack
@@ -31,3 +33,17 @@ MIT License © 2026 Horacio Laphitz
 ---
 
 Horacio Laphitz
+
+## Diagrama
+
+[Explorar la arquitectura interactiva en GitDiagram](https://gitdiagram.com/HoracioLaphitz/Porfolio)
+
+```mermaid
+flowchart LR
+  A[".gitattributes + .github + .gitignore"] --> B["Procesamiento de Porfolio"]
+  B --> C["Resultados del proyecto"]
+```
+
+## Tecnologías
+
+- Astro
